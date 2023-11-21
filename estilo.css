@@ -272,27 +272,16 @@
              height:260px;
              }
 
-             a:active{
-                outline: none;
-                border: none;
-             }
+             a{
+             -webkit-tap-highlight-color: transparent;
+             outline: none;
+             border: none;}
 
-             menu:active{
-                outline: none;
-                border: none;
-             }
+             #menu{
+             -webkit-tap-highlight-color: transparent;
+             outline: none;
+             border: none;}
 
-             a:focus{
-                outline: none;
-                border: none;
-             }
-
-             #menu:focus{
-                outline: none;
-                border: none;
-             }
-
-       
              #nav{
              height:40px;
              }
