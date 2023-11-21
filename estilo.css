@@ -282,10 +282,22 @@
              outline: none;
              border: none;}
 
-             #conteudo1, #conteudo2, #conteudo3{
+             #conteudo1{
              -webkit-tap-highlight-color: transparent;
              outline: none;
              border: none;}   
+             }
+
+             #conteudo2{
+             -webkit-tap-highlight-color: transparent;
+             outline: none;
+             border: none;}
+             }
+
+             #conteudo3{
+             -webkit-tap-highlight-color: transparent;
+             outline: none;
+             border: none;}
              }
             
              #nav{
