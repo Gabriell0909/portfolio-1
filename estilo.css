@@ -272,6 +272,16 @@
              height:260px;
              }
 
+             a:active, menu:active{
+                outline: none;
+                border: none;
+             }
+
+             a:focus, menu:focus{
+                outline: none;
+                border: none;
+             }
+
        
              #nav{
              height:40px;
