@@ -32,13 +32,11 @@
   
   
     #nav{
-    background-color: lightgreen;
     grid-area: nav;
     border-radius: 0.8em;
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
-    align-items: center;   
+    align-items: center;
     }
     
     #nav img{
@@ -225,20 +223,25 @@
     }
     
     #footer{
-    background-color: lightslategray;
-    grid-area: footer;
-    border-radius: 8em;
+        background-image:linear-gradient(to left,black,gray);
+        grid-area: footer;
+        border-radius: 8em;
     }
 
-    @media screen and (max-width:798px){
-        #sidebar{
-        display: none;
-        }
-        .container{
+
+
+@media screen and (max-width:798px){
+
+           #sidebar{
+           display: none;
+           }
+
+   
+            .container{
             display:grid;
             height: 100vh;
             grid-template-columns:0fr 1.1fr 1.1fr 1.1fr ;
-            grid-template-rows:   1fr 1.9fr 0.7fr 0.3fr;
+            grid-template-rows:   1fr 1.9fr 1fr 0.3fr;
             grid-template-areas:"nav nav nav nav"
                          "main main main main"
                          " conteudo1 conteudo2 conteudo3"
@@ -250,15 +253,32 @@
             text-align:center;
             margin:11px;
             margin-left:1px;
-        }
+            }
 
-       #logo{
-          display:none;
+
+   
+            #logo{
+            display:none;
+            
+            }
+        
           
-       }
-       
-          #menu{
+   
+             #menu{
              display:flex;
-             margin-left:39px
-          }
-    } 
+             justify-content:flex-end;
+             align-items:end;
+             margin-left:39px;
+             height:260px;
+             }
+
+       
+             #nav{
+             height:40px;
+             }
+
+
+             body{
+                background-image:linear-gradient(to left,white,gray);;
+             }  
+   } 
