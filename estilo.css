@@ -275,23 +275,25 @@
              a{
              -webkit-tap-highlight-color: transparent;
              outline: none;
-             border: none;}
+             border: none;
+             }
 
              #menu{
              -webkit-tap-highlight-color: transparent;
              outline: none;
-             border: none;}
+             border: none;
+             }
 
              #conteudo1{
              -webkit-tap-highlight-color: transparent;
              outline: none;
-             border: none;}   
+             border: none;   
              }
 
              #conteudo2{
              -webkit-tap-highlight-color: transparent;
              outline: none;
-             border: none;}
+             border: none;
              }
 
              #conteudo3{
