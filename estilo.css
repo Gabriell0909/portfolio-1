@@ -282,6 +282,12 @@
              outline: none;
              border: none;}
 
+             #conteudo1, #conteudo2, #conteudo3{
+             -webkit-tap-highlight-color: transparent;
+             outline: none;
+             border: none;}   
+             }
+            
              #nav{
              height:40px;
              }
