@@ -272,12 +272,22 @@
              height:260px;
              }
 
-             a:active, menu:active{
+             a:active{
                 outline: none;
                 border: none;
              }
 
-             a:focus, menu:focus{
+             menu:active{
+                outline: none;
+                border: none;
+             }
+
+             a:focus{
+                outline: none;
+                border: none;
+             }
+
+             #menu:focus{
                 outline: none;
                 border: none;
              }
